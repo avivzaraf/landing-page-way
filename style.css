@@ -1,0 +1,253 @@
+@media screen and (max-width:480px) {
+
+
+    body {
+
+        background-repeat: no-repeat;
+        background-image: url(./Path\ 15.png);
+        background-size: inherit;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+
+
+    .box-1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+                h1 {
+                    font-family: 'Assistant', sans-serif;
+                    color: #FFFFFF;
+                }
+        
+                p {
+                    font-family: 'Assistant';
+                    color: #F9F9F9;
+                }
+
+                /*form*/
+
+           form {
+               display: flex;
+               flex-direction: column;
+           }
+
+    .box-form {
+        display: flex;
+        justify-content: center;
+    }
+
+    input {
+        background-color: lightgrey;
+        border-color: #0F5380;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        opacity: 1;
+    }
+
+    label {
+        font-weight: bold;
+        font-family: 'Assistant';
+        color: white;
+    }
+
+    button {
+        font-family: 'Assistant';
+        background-color: #0F5380;
+        color: #FFFFFF;
+        margin-top: 5px;
+        border: solid 0px;
+    }
+
+
+
+}
+
+/*screen 481 min*/
+@media screen and (min-width:481px) and (max-width:1000px) {
+
+
+    body {
+
+        background-repeat: no-repeat;
+        background-image: url(./Path\ 15.png);
+        background-size: inherit;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+
+                .box-1 {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                }
+
+                    h1 {
+        font-family: 'Assistant', sans-serif;
+        font-size: 3.5rem;
+        color: #FFFFFF;
+    }
+
+    p {
+        font-family: 'Assistant';
+        color: #F9F9F9;
+    }
+
+
+    h1,
+    p {
+        text-align: center;
+    }
+
+                h1 {
+                    font-family: 'Assistant', sans-serif;
+                    font-size: 3.5rem;
+                    color: #FFFFFF;
+                }
+        
+                p {
+                    font-family: 'Assistant';
+                    color: #F9F9F9;
+                }
+        
+        
+                h1,
+                p {
+                    text-align: center;
+                }
+
+                /*form*/
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .box-form {
+        display: flex;
+        justify-content: center;
+    }
+
+    input {
+        background-color: lightgrey;
+        border-color: #0F5380;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        opacity: 1;
+    }
+
+    label {
+        font-weight: bold;
+        font-family: 'Assistant';
+        color: white;
+    }
+
+    button {
+        font-family: 'Assistant';
+        border: solid 0px;
+        background-color: #0F5380;
+        color: #FFFFFF;
+        margin-top: 5px;
+
+    }
+
+
+
+}
+
+/*min 728*/
+
+@media screen and (min-width:1001px) {
+
+    body {}
+
+
+    .container {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .box-1 {
+        background-repeat: no-repeat;
+        background-image: url(./Path\ 15.png);
+        background-size: cover;
+        background-size: contain;
+        height: 580px;
+        padding-top: 150px;
+    }
+
+
+    h1 {
+        font-family: 'Assistant', sans-serif;
+        color: #FFFFFF;
+        font-size: 3rem;
+        margin: 0px;
+    }
+
+    p {
+        font-family: 'Assistant';
+        font-size: 0.8rem;
+        color: #F9F9F9;
+    }
+
+    /*form*/
+
+    .box-form {
+        margin-top: -100px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    input {
+        background-color: #F6F6F6;
+        border-color: #0F5380;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 250px;
+        opacity: 1;
+        height: 25px;
+        margin-left: 15px;
+    }
+
+    label {
+        position: absolute;
+        font-size: 0.6rem;
+        font-weight: bold;
+        font-family: 'Assistant';
+        top: 630px;
+        margin-left: 15px;
+        color: #2C2C2C;
+    }
+
+    button {
+        font-family: 'Assistant';
+        border: solid 0px;
+        background-color: #0F5380;
+        color: #FFFFFF;
+        margin-top: 5px;
+        width: 120px;
+        height: 30px;
+
+    }
+
+}
